@@ -12,19 +12,19 @@ Install and configure the Arduino IDE for the SimBot
 > 
 > **Step 1**: First you must have Simbot and a B-type USB cable.
 
-![](media/image1.png)
+![](../assets/images/image1.png)
 
 # Step 2: Download Arduino IDE Software.
 
 > You can get different versions of Arduino IDE on the Arduino Official website. <https://www.arduino.cc/en/Main/Software>.You must select your software, which is compatible with your operating system (Windows, IOS, or Linux). After your file download is complete, unzip the file.
 
-![](media/image2.png)
+![](../assets/images/image2.png)
 
 # Step 3: Power up your SimBot.
 
 > The SimBot automatically draw power from either, the USB connection to the computer or an external power supply. If you want to charge your battery then make sure you first power off the SimBot, connect the battery and then plug the USB cable.
 
-//Image
+![](../assets/images/image3.png)
 
 > However, it is always recommended to first remove the battery before uploading the code. Now connect the SimBot to your computer using the USB cable. The Red power LED should glow.
 
@@ -32,7 +32,7 @@ Install and configure the Arduino IDE for the SimBot
 
 > After your Arduino IDE software is downloaded, you need to unzip the folder. Inside the folder, you can find the application icon with an infinity label (application.exe). Double-click the icon to start the IDE.
 
-![](media/image4.jpeg)
+![](../assets/images/image4.jpeg)
 
 # Step 5: Open your first project.
 
@@ -44,7 +44,7 @@ Install and configure the Arduino IDE for the SimBot
 
 > To create a new project, select File → **New**.
 
-![](media/image5.jpeg)
+![](../assets/images/image5.jpeg)
 
 # Step 6: Select your Arduino board.
 
@@ -62,11 +62,11 @@ Install and configure the Arduino IDE for the SimBot
 
 1.  In your Arduino IDE, go to **File\> Preferences**
 
-![](media/image6.png)
+![](../assets/images/image6.png)
 
 2.  Enter [**https://dl.espressif.com/dl/package\_esp32\_index.json**](https://dl.espressif.com/dl/package_esp32_index.json) into the “Additional Board Manager URLs” field as shown in the figure below. Then, click the “OK” button:
 
-![](media/image7.png)
+![](../assets/images/image7.png)
 
 > **Note:** if you already have the ESP32 boards URL, you can separate the URLs with a comma as follows:
 > 
@@ -74,15 +74,15 @@ Install and configure the Arduino IDE for the SimBot
 
 3.  Open the Boards Manager. Go to **Tools** \> **Board** \> **Boards Manager…**
 
-![](media/image8.png)
+![](../assets/images/image8.png)
 
 4.  Search for **ESP32** and press install button for the “**ESP32 by Espressif Systems**“:
 
-![](media/image9.png)
+![](../assets/images/image9.png)
 
 5.  That’s it. It should be installed after a few seconds.
 
-![](media/image10.png)
+![](../assets/images/image10.png)
 
 # Step 7: Selecting the SimBot board
 
@@ -90,19 +90,19 @@ Install and configure the Arduino IDE for the SimBot
 
 1)  Select your Board in **Tools** \> **Board** menu (in my case it’s the **DOIT ESP32 DEVKIT V1**)
 
-![](media/image11.png)
+![](../assets/images/image11.png)
 
 2)  Select the Port (if you don’t see the COM Port in your Arduino IDE, you need to insta[ll the CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) from the given link:
 
 > [https://www.silabs.com/products/development-tools/software/usb-](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) [to-uart-bridge-vcp-drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
-![](media/image12.jpeg)
+![](../assets/images/image12.jpeg)
 
 # Step 8: Upload the program to your Simbot.
 
 > Before explaining how we can upload our program to the board, we must demonstrate the function of each symbol appearing in the Arduino IDE toolbar.
 
-![](media/image13.png)
+![](../assets/images/image13.png)
 
 > **A** − Used to check if there is any compilation error. **B** − Used to upload a program to the Arduino board. **C** − Shortcut used to create a new sketch.
 > 
@@ -128,10 +128,10 @@ Install and configure the Arduino IDE for the SimBot
 > 
 > Your window will look something like this
 > 
-> ![](media/image14.png)
+> ![](../assets/images/image14.png)
 > 
 > Now, simply click the "Upload" button in the environment. Wait a few seconds; you will see the LEDs on the Simbot board, flashing. If the upload is successful, the message "Done uploading" will appear in the status bar. Click the Serial Monitor button. If all has gone well, the monitor window will show your message and look something like this
 
-![](media/image15.png)
+![](../assets/images/image15.png)
 
 > Congratulations; you have created and run your first Arduino program\!
